@@ -7,7 +7,7 @@ namespace TestProject1
         {
             int i = 0;
             bool result = false;
-            if (i == 0) result = true;
+            if (i == 1) result = true;
             Assert.True(result,"value should be equal to 0");
         }
     }
